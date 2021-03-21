@@ -44,7 +44,7 @@ echo "<td>".$name."</td>";
 echo "<td>".$phone."</td>";
 echo "<td>".$address."</td>";
 echo "<td>".$email."</td>";
-
+echo "<td><a href='update.php?id=$id' title='Update'>Update</a></td>";
 echo "</tr>";
 
 
@@ -61,21 +61,7 @@ mysqli_close($con);
 ?>
 
 
-    <tr>
-    <th>Id</th>
-    <th>Name</th>
-    <th>Phone</th>
-    <th>Address</th>
-    <th>Email</th>
-    </tr>
-    <tr>
-    <td>$id</td>
-    <td>$name</td>
-    <td>$phone</td>
-    <td>$address</td>
-    <td>$email</td>
-    </tr>
-    </table>
+       </table>
 
     </body>
 </html>
