@@ -45,6 +45,8 @@ echo "<td>".$phone."</td>";
 echo "<td>".$address."</td>";
 echo "<td>".$email."</td>";
 echo "<td><a href='update.php?id=$id' title='Update'>Update</a></td>";
+echo "<td><a href='delete.php?id=$id' title='Delete'>Delete</a></td>";
+
 echo "</tr>";
 
 
